@@ -1,0 +1,5 @@
+The Web Design rules:
+
+1. Lowercase
+2. no spaces
+3. no weird characters exept - or _
