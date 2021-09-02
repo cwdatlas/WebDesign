@@ -3,3 +3,6 @@ The Web Design rules:
 1. Lowercase
 2. no spaces
 3. no weird characters exept - or _
+
+We have inline elements and block elements, inline elements mostly consist of editing elements
+and block elements mostly consist of formating elements. 

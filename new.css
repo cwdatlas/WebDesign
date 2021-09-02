@@ -1,0 +1,18 @@
+h1 {
+  color: red; font-size: 50px
+}
+h2 {
+  color: green; font-family: serif;
+}
+p {
+  background-color:yellow;
+}
+ul{
+  border: 5px solid purple;width:200px;
+}
+#UwU{
+  color:pink; border: 2px solid tan; width: 380px;
+}
+.OwO{
+  color:blue; font-style:italic;
+}
