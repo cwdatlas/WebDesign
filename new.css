@@ -1,18 +1,43 @@
 h1 {
-  color: red; font-size: 50px
+  color: #00ffcc; font-size: 50px
 }
 h2 {
-  color: green; font-family: serif;
+  color: #00ffcc; font-family: serif;
 }
 p {
-  background-color:yellow;
+  font-family: cursive; color: #00ffcc;
 }
 ul{
-  border: 5px solid purple;width:200px;
+  border: 5px solid purple;width:200px;color: #00ffcc;
 }
 #UwU{
   color:pink; border: 2px solid tan; width: 380px;
 }
-.OwO{
+p.OwO{
   color:blue; font-style:italic;
+}
+h3.OwO{
+  color:cyan;
+}
+body {
+  background-color: #00ffcc;
+  background-image:url(phos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* oohh comments! ok so .box and .span attrebutes setup*/
+.box p {
+color:white;
+}
+
+div.box{
+width: 400px;
+height: 400px;
+background-color: rgba(0, 255, 204,.5);
+}
+
+span.greenBackground{
+  background-color: green;
+  font-weight: bold;
+  font-size: 20px;
 }
