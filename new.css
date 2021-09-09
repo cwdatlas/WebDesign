@@ -26,6 +26,10 @@ body {
   background-size: cover;
 }
 /* oohh comments! ok so .box and .span attrebutes setup*/
+.box, .PaddingClass{
+padding: 10px;
+}
+
 .box p {
 color:white;
 }
@@ -34,10 +38,22 @@ div.box{
 width: 400px;
 height: 400px;
 background-color: rgba(0, 255, 204,.5);
+border: 2px solid rgb(0, 255, 180);
 }
 
 span.greenBackground{
   background-color: green;
   font-weight: bold;
   font-size: 20px;
+}
+/* Time to do padding!!*/
+#NewId {
+  color: rgba(0, 255, 204,.5);
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0, 255, 250,.5);
+  border: 2px solid rgba(0,255, 240,1);
+  margin: 20px;
+  /*padding: 10px rgba(0,255, 220,.5);*/
+
 }
