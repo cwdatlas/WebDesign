@@ -1,0 +1,45 @@
+/*general boilerplate*/
+body.states {
+  background-color: rgb(153, 204, 255);
+  background-image:url(statesBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1.states{
+  size: auto; color: rgb(51, 204, 255); width: 20%%; margin-left: 40%;
+}
+
+/*div attrebutes and its children*/
+
+div.states{
+  width:40%;
+  height:70%;
+  border: solid, 2px, black;
+  padding: .5%;
+  margin: 4%;
+  background-color: rgba(0,0,0,.45);
+  display: inline-block;
+}
+
+div.states p{
+  color: lightgray;
+  size: 7px;
+}
+
+div.states h1{
+  color: rgb(0, 184, 230);
+}
+
+div.states h2{
+  color: rgb(51, 204, 255);
+}
+
+div.states h3{
+  color: lightgray;
+}
+
+div.states a{
+  color: rgb(0, 250, 250)
+}
