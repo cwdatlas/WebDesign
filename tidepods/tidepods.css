@@ -1,16 +1,58 @@
+/* this is the body attrebutes*/
+body{
+  background-color: #dddddd;
+  margin:0;
+  padding:0;
+  font-family: Verdana, sans-serif;
+}
+
+#wrap {
+  width:70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+
 /* this is the header attrebutes*/
 header {
   font-style:italic;
-  padding-left: 30%;
-  
+  padding: 3%;
 }
 
 header h1{
 
 }
+header img{
+  width: 100%;
+}
 /* this is the nav attrebutes*/
 nav {
+  background-color: #0b3d91;
+  padding: 1%;
+  text-align: center;
+}
 
+nav a{
+  color: white;
+  font-size: 150%;
+  padding: 1%;
+  margin: 0 2%;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  background-color: yellow;
+  color: navy;
+}
+nav li{
+  display: inline;
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
 }
 /* this is the section attrebutes*/
 section {
@@ -18,5 +60,8 @@ section {
 }
 /* this is thefooter attrebutes*/
 footer {
-
+  background-color: #033d91;
+  color: white;
+  text-align: center;
+  padding: 1%;
 }

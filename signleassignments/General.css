@@ -43,3 +43,8 @@ div.states h3{
 div.states a{
   color: rgb(0, 250, 250)
 }
+
+div.states img{
+  width: 80%;
+  margin: 0 auto;
+}
