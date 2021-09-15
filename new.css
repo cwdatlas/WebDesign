@@ -1,38 +1,14 @@
-h1 {
-  color: #00ffcc; font-size: 50px
-}
-h2 {
-  color: #00ffcc; font-family: serif;
-}
-p {
-  font-family: cursive; color: #00ffcc;
-}
-ul{
-  border: 5px solid purple;width:200px;color: #00ffcc;
-}
-#UwU{
-  color:pink; border: 2px solid tan; width: 380px;
-}
-p.OwO{
-  color:blue; font-style:italic;
-}
-h3.OwO{
-  color:cyan;
-}
+
+
 body {
   background-color: #00ffcc;
   background-image:url(phos.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 130%;
+  background-attachment: fixed;
+  color: rgb(0, 255, 204);
 }
 /* oohh comments! ok so .box and .span attrebutes setup*/
-.box, .PaddingClass{
-padding: 10px;
-}
-
-.box p {
-color:white;
-}
 
 div.box{
 width: 400px;
@@ -41,19 +17,28 @@ background-color: rgba(0, 255, 204,.5);
 border: 2px solid rgb(0, 255, 180);
 }
 
-span.greenBackground{
-  background-color: green;
-  font-weight: bold;
-  font-size: 20px;
+div.phosBreaks{
+  width: 40%;
+  height: 50%;
+  background-color: rgba(0, 255, 204,.5);
+  border: 2px solid rgb(0, 255, 180);
+  padding: 1% 5%;
+  margin-top: 10%;
 }
-/* Time to do padding!!*/
-#NewId {
-  color: rgba(0, 255, 204,.5);
-  width: 400px;
-  height: 400px;
-  background-color: rgba(0, 255, 250,.5);
-  border: 2px solid rgba(0,255, 240,1);
-  margin: 20px;
-  /*padding: 10px rgba(0,255, 220,.5);*/
 
+div.phosBreaks video {
+  display: inline-block;
+  background-color:rgba(0, 255, 204,.5);
+  width: 90%;
+  padding: 0;
+  margin: auto;
+}
+
+div.space{
+  height:1000px;
+}
+source{
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
 }
