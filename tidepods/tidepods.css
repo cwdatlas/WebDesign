@@ -17,13 +17,16 @@ body{
 header {
   font-style:italic;
   padding: 3%;
+  text-align:center;
+  background-color: lightblue;
 }
 
 header h1{
 
 }
 header img{
-  width: 100%;
+  width: 70%;
+
 }
 /* this is the nav attrebutes*/
 nav {
@@ -56,7 +59,25 @@ nav ul{
 }
 /* this is the section attrebutes*/
 section {
+  padding: 0% 1%;
+  overflow: auto;
 
+}
+/* need to set this up as a class*/
+section img{
+  width: 20%;
+  float: right;
+  margin-top: -6%;
+}
+
+.button{
+  background-color: #0b3d91;
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 20px;
+  border-radius: 10px;
+  display: inline-block;
 }
 /* this is thefooter attrebutes*/
 footer {

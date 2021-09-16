@@ -1,0 +1,42 @@
+body{
+margin:0;
+padding:0;
+}
+
+header{
+
+}
+
+nav{
+
+}
+
+section {
+
+}
+
+.box1 {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+}
+
+.box2, .box3 {
+  margin-top:20px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.box2 {
+  /*visibility:hidden;*/
+  /*display: none;*/
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color:green;
+}
+
+footer{
+
+}
