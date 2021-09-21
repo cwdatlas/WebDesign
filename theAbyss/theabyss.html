@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="theabyss.css" type="text/css" rel="stylesheet">
+  <title>Abyss</title>
+</head>
+
+<body <!-- the setart of the navigation pane-->
+  <nav>
+    <ul>
+      <li><a href="theabyss.html">The Dive</a></li>
+      <li><a href="">Watch</a></li>
+      <li><a href="https://madeinabyss.fandom.com/wiki/Made_in_Abyss_Wiki">Wiki</a></li>
+      <li><a href="">Merch</a></li>
+      <li><a href="">credits</a></li>
+    </ul>
+  </nav>
+
+  <div id="wrap">
+
+    <!-- the start of the header-->
+    <header>
+      <h1>Welcome to The abyss</h1>
+      <img src="madeinabysslogo.png">
+    </header>
+
+    <!-- the start of the section space-->
+    <section>
+      <h1>Welcome to the Abyss non-official site</h1>
+      <div>
+        <img src="Nakikabane.jpg" alt="Image of a Nakikabane" id="Nakikabane">
+        <p>This site will give you an idea of what hides in the great abyss; from the the first to the fith layer</p>
+        <p>Another name for the Nakikabane is the Corps Reaper, which lives in the first and second layers.
+          The Nakikabane can simulate the screams of their prey in use while hunting to lure their prey closer.
+          As they do not have beaks they must use their tongues to rip meat out of their prey.
+        </p>
+
+      </div>
+      <div>
+        <img src="neritantan.png" alt="Image of a neritantan" id="neritantan">
+        <p>These Little creatures live in the 3rd layer of the Abyss. They are a great source of food while being easy
+          to catch. </p>
+      </div>
+
+      <div>
+        <img src="hamashirama.jpg" alt="Image of a hamashirama" id="hamashirama">
+        <p>Hamashirama live in the oceans of the 5th layer: the sea of corpses. These fish can be made into hamashirama
+          sushimi. This has been stated to be a great and tasty source of food in the 5th layer</p>
+      </div>
+
+
+      <p>
+        <button onclick="makeVisible()" class="button"> open popup</button>
+      </p>
+
+
+
+  <div id="popup">
+    <div>
+      <img src="hamashirama.jpg" alt="Image of Hamashirama">
+      <button onclick="makeVisible()" class="button"> open popup</button>
+    </div>
+
+  </div>
+
+  </section>
+    <!-- the start of the footer-->
+    <footer>
+      <p>&copy; 2021 P&G. I really dont know what to put here. </p>
+    </footer>
+  </div> <!-- this is the wrapper div-->
+
+
+  <script type="text/javascript">
+    function makeVisible() {
+      var x = document.getElementById("popup");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+
+
+</body>
+</html>
