@@ -14,18 +14,22 @@ html, body {
 
 h1{
 	color: white;
-	font-size: 350%;
+	font-size: 75px;
 	font-family:
 	padding: none;
 	margin:none;
-	
+	font-family: Georgia, serif;
+	text-indent: none;
+
 }
 h2{
 	color: rgb(136,240,240);
-	font-size: 100%;
+	font-size: 25px;
 	font-family:
 	padding: none;
 	margin:none;
+	font-family: Georgia, serif;
+	text-indent: none;
 }
 header {
 	clear: both;
