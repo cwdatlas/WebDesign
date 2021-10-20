@@ -9,9 +9,23 @@ margin: 0 auto;
 
   }
 
+.siteBox{
+  width: 49%;
+  height: 20%;
+  margin: 4px auto;
+  display: inline-block;
+  background-color: coral;
+  color: white;
+  border: 2px solid black;
+}
 
+.siteBox a{
+  color: white;
+}
 header{
-
+  background-color: coral;
+  text-align: center;
+  color: white;
 }
 
 nav{
