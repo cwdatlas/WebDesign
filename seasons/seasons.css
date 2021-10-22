@@ -1,0 +1,174 @@
+/* this is the body attrebutes*/
+body{
+  background-color: darkgrey;
+  margin:0;
+  padding:0;
+  font-family: Verdana, sans-serif;
+  background-image: url(abyssbackground.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#popup{
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+
+#popup div{
+  width: 70%;
+  margin-left: 13%;
+  margin-top: 2%;
+  height:80%;
+  padding: 0;
+  border: solid 2px black;
+  background-color: rgb(138, 143, 123);
+  text-align: left;
+}
+
+.innerpop div{
+  width: 50%;
+  margin: 0;
+  height: 100%;
+  padding 0;
+  border: none;
+  background color: red;
+  display: inline-block;
+  position: relative;
+}
+
+#popup img{
+  height: 50%;
+  text-align: left;
+  display: inline-block;
+}
+
+
+#wrap {
+  width:70%;
+  margin: 0 auto;
+  background-color: rgba(234,230,195, .6);
+  /*background-color: rgba(100,85,64, .9);*/
+}
+
+
+/* this is the header attrebutes*/
+header {
+  font-style:italic;
+  padding: 5% 3% 3% 3%;
+  text-align:center;
+  background-blend-mode: normal;
+  background-color: rgba(140, 140, 140,.4);
+  border-bottom: solid;
+  border-color: rgb(138, 143, 123);
+
+}
+
+header h1{
+
+}
+header img{
+  width: 70%;
+
+}
+/* this is the nav attrebutes*/
+nav {
+  background-color: rgb(138, 143, 123);
+  padding: 1%;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+}
+
+nav a{
+  color: white;
+  font-size: 120%;
+  padding: 1%;
+  margin: 0 4%;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  background-color:  rgb(118, 123, 103);
+  color: darkgrey;
+}
+nav li{
+  display: inline;
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+/* this is the section attrebutes*/
+section {
+  padding: 0% 1%;
+  overflow: auto;
+  background-color: rgba(150,150,150,.5);
+  text-align:center;
+  font-size: 150%;
+
+}
+
+section h1{
+  text-align: left;
+  font-size: 110%;
+}
+
+section p{
+
+}
+/* need to set this up as a class*/
+#Nakikabane{
+  width: 30%;
+  float: right;
+  margin-top: -6%;
+  margin-left: 2%;
+}
+
+#neritantan{
+  width: 30%;
+  float: left;
+  margin-top: -10%;
+  margin-right: 2%;
+}
+
+#hamashirama{
+  width: 30%;
+  float: right;
+  margin-top: -10%;
+  margin-left: 2%;
+}
+section div{
+  margin:0;
+  padding:0;
+  height: 400px;
+}
+
+.button{
+  background-color: rgb(138, 143, 123);
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+/* this is thefooter attrebutes*/
+footer {
+  background-color: rgb(138, 143, 123);
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
