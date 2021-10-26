@@ -1,0 +1,50 @@
+body{
+margin:0;
+padding:0;
+}
+
+  #wrap{
+width: 70%;
+margin: 0 auto;
+
+  }
+
+table{
+  border: 0;
+}
+tbody{
+  background-color: lightgrey;
+  font-family: verdana;
+}
+thead{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+td{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 0;
+
+}
+
+tr:nth-child(even){
+  background-color: darkgrey;
+}
+
+header{
+
+}
+
+nav{
+
+}
+
+section {
+
+}
+
+
+footer{
+
+}

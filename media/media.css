@@ -1,0 +1,58 @@
+body{
+margin:0;
+padding:0;
+}
+
+  #wrap{
+width: 70%;
+margin: 0 auto;
+
+  }
+
+header{
+  background-color: blue;
+  color: white;
+  text-align: center;
+
+}
+
+nav{
+  background-color: gold;
+  padding: 20px;
+  text-align: center;
+}
+
+nav li{
+  display: inline;
+
+}
+nav ul{
+  margin: 0;
+
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 0px 7%;
+}
+nav a:hover{
+  background-color: orange;
+}
+
+section {
+background-color: aqua;
+}
+
+section aside{
+
+}
+
+section article{
+  
+}
+
+
+footer{
+background-color: black;
+color: white;
+}
