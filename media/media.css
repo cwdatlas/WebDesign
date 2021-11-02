@@ -41,18 +41,72 @@ nav a:hover{
 
 section {
 background-color: aqua;
+overflow: auto;
 }
 
-section aside{
+aside{
+  width: 10%;
+  float:left;
+}
+aside li{
+  list-Style-type: none;
+  margin: 10px, 0;
 
 }
+aside ul{
+  margin: 0;
+  padding: 10% 3%;
+}
+aside a{
+  padding: 10px 0 10px 30px;
+  text-decoration: none;
+}
 
-section article{
-  
+aside a:hover{
+  background-color:blue;
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+
+article{
+  width: 86%;
+  background-color: darkorchid;
+  float:right;
+  padding:2%;
 }
 
 
 footer{
 background-color: black;
 color: white;
+padding: 20px;
+}
+
+@media screen and (max-width: 600px){
+  body{
+    background-color: beige;
+    }
+
+    #wrap{
+      width: 100%;
+  }
+  nav{
+    padding: 0 20px;
+  }
+nav a{
+  display: block;
+  width: 100%
+  margin: 0;
+}
+nav li, nav ul{
+  margin: 0;
+  padding: 0;
+}
+aside, article{
+  width: 96%;
+  float:none;
+
+}
+
 }
