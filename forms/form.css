@@ -1,19 +1,33 @@
 body{
-margin:0;
-padding:0;
-background-color: #ddd;
+  margin:0;
+  padding:0;
+  background-color: #ddd;
 }
-
-  #wrap{
-width: 70%;
-margin: 0 auto;
-
+#wrap{
+  width: 70%;
+  margin: 0 auto;
   }
-
+.bUtToN{
+  color: red;
+  font-size: 130%;
+}
+textarea{
+  width: 50%;
+  height: 100px;
+  }
+fieldset{
+  background-color: #ddd;
+  border-radius: 1em;
+  }
+legend{
+  font-size: 150%;
+  font-family: Georgia, serif;
+  background-color: white;
+  padding: 5px 10px;
+  }
 form{
   background
 }
-
 header, nav, section, footer{
   padding: 30px;
   background-color: #fff;
@@ -27,7 +41,6 @@ header{
 nav{
 
 }
-
 section {
 
 }

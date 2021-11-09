@@ -17,7 +17,10 @@
       </nav>
 
       <section>
-        <form class="" action="thanks.html" method="post">
+        <fieldset>
+          <legend>Fill out this form pls</legend>
+        <form class="" action="../seasons/seasonsMain.html" method="post">
+
           <p><label for="fname">FirstName:</label><br>
           <input type="text" name="fname" value="" id="fname"></p>
 
@@ -33,16 +36,58 @@
           <p>How did you hear about this website? please answer below</p>
 
           <p>
-            <input type="checkbox" name="website" value="" id="social"> <label for="social">socialMedia </label><br>
-            <input type="checkbox" name="website" value="" id="friend"> <label for="friend">friend </label><br>
-            <input type="checkbox" name="website" value="" id="work"> <label for="work">work </label><br>
-            <input type="checkbox" name="website" value="" id="dude"> <label for="dude">randomDude </label>
+            <input type="checkbox" name="website" value="social" id="social"> <label for="social">socialMedia </label><br>
+            <input type="checkbox" name="website" value="friend" id="friend"> <label for="friend">friend </label><br>
+            <input type="checkbox" name="website" value="work" id="work"> <label for="work">work </label><br>
+            <input type="checkbox" name="website" value="rando" id="dude"> <label for="dude">randomDude </label>
+          </p>
+
+          <p>
+            Have you ever been to this website before?
+          </p>
+
+          <p>
+            <input type="radio" name="returning" value="yes" required><label>yes</label>
+            <br>
+            <input type="radio" name="returning" value="no" required><label>no</label>
+            <br>
+            <input type="radio" name="returning" value="maybe" required><label>maybe</label>
+          </p>
+          <p>
+            What is your favorite year of human existance?
+          </p>
+          <p>
+            <select class="" name="">
+              <option value="">Select a day...</option>
+              <option value="1917">1917</option>
+              <option value="2021">2021</option>
+              <option value="1880">1880</option>
+            </select>
+          </p>
+          <p>
+            Comments
+          </p>
+          <textarea name="comments" id="commentsBox" placeholder="Type in your Comment"></textarea>
+
+          <p>
+            <input type="submit" name="submit" value="SUBMIT" class="bUtToN">
           </p>
         </form>
+        <!--this is our window to the google form-->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdDxVBAZiYxE3JrEkykzax2s7mXlk3oKcc10rVk66rkb-olfA/viewform?embedded=true" width="640" height="1115" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </fieldset>
+        <!--trying to import randome video from youtube-->
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/Dca9gJyjoAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--trying to import stated video from youtube that the tutorial-->
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+        <iframe src="https://catmario.eu/" width="560" height="315"></iframe>
       </section>
 
       <footer>
-        footer
+        <h1>UwU</h1>
       </footer>
 
     </div>
