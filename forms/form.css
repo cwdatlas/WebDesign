@@ -28,21 +28,43 @@ legend{
 form{
   background
 }
+.embed-container { position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+  .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 header, nav, section, footer{
   padding: 30px;
   background-color: #fff;
   margin: 10px, 0px;
 }
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.left{
+  float: left;
+  width: 45%
+}
+.right{
+  float: right;
+  width: 45%
+}
+
+@media only screen and (max-width:600px){
+  .left, .right{
+    float: none;
+    width: 100%;
+    margin: 15px 0;
+  }
+}
 
 header{
-
 }
 
 nav{
 
 }
 section {
-
+  overflow: auto;
 }
 
 
