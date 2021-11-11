@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="slideShow.css" type="text/css" rel="stylesheet">
+    <title>slideShow demo UwU</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <div id="wrap">
+
+      <header>
+      </header>
+
+      <nav>
+      </nav>
+
+      <section>
+        <h2>Random photos I had on hand (a little lame, I know)</h2>
+
+        <div id="wrapper">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/green fen.png" data-thumb="images/green fen.png" alt=""
+                      title="This was my main VR chat avatar years ago"/>
+                    <img src="images/lush cave 1.18 expantion pack.png" data-thumb="images/lush cave 1.18 expantion pack.png" alt=""
+                      title="A picure of the upcoming lush caves in Minecraft" />
+                    <img src="images/phos.jpg" data-thumb="images/phos.jpg" alt=""
+                      title="Phos here is one of my favorite anime characters"/>
+                    <img src="images/coldDay.png" data-thumb="images/coldDay.png" alt="" title="#htmlcaption"
+                      title="I was looking for a background picture when I found this"/>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <footer>
+
+      </footer>
+
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+  </body>
+</html>
