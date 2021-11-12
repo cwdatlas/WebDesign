@@ -26,20 +26,120 @@
     <h1>this is inside a .container-fluid class which should modify itself with the width of the screen</h1>
   </div>
 
-  <div class="container my-5 bg-dark text-white">
+  <div class="container col-xl-6 my-5 bg-dark text-white">
     <div class="row">
-      <div class="col-sm-3 m-1 bg-primary">
-        <p>hello world</p>
+      <div class="col-sm m-1 bg-primary">
+        <p class="h6"><mark>hello</mark> world</p>
       </div>
-      <div class="col-sm-3 m-1 bg-primary ">
-        <p>hello world</p>
+      <div class="col-sm m-1 bg-primary ">
+        <p class="display-6">hello world</p>
       </div>
-      <div class="col-sm-3 m-1 bg-primary">
-        <p>hello world</p>
+      <div class="col-sm m-1 bg-primary">
+        <p class="h2">hello <small>world</small></p>
       </div>
+      <blockquote>
+        <p class="text-danger">"knife hand of radness"</p>
+        <blockquote-footer>--Scout (the Pirate) lynde</blockquote-footer>
+        <blockquote>
     </div>
   </div>
 
-</body>
+  <div class="container col-md-9">
+    <h2 class="display-2">Table of VR equipment</h2>
+    <table class="table table-striped table-bordered mt-5 table-dark text-primary table-sm">
+      <thead>
+        <tr>
+          <th class="col-md-3">moblie</th>
+          <th class="col-md-3">builtIn</th>
+          <th class="col-md-3">AR</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Quest</td>
+          <td>Index</td>
+          <td>HTC</td>
+        </tr>
+        <tr>
+          <td>Quest2</td>
+          <td>HTC Vive</td>
+          <td class="table-danger">google glass <bold class="text-danger"> (OUTDATED)</bold>
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
+    <img class="float-start col-6" src="ryuko.jpg">
+    <img class="float-end col-6 " src="ryuko.jpg">
+    <img class="mx-auto d-block col-6 " src="ryuko.jpg">
+
+    <div class="m-4 bg-primary p-5 text-white rounded">
+      <h1 class="display-1">Jumbotron Example<h1>
+          <p>Uwu this is important text that you should pay attention to! please pay attention to me sempai</p>
+          </dv>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show">
+      <strong>Success!</strong> A cutie logged on!
+      <botton type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <button type="button" class="btn btn-success">UwU</button>
+    <input class="btn btn-danger" type="reset" value="refresh page">
+    <h2 class="display-1">Favorite Waifu</h2>
+    <strong>who is your favorite wifu?</strong><br>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Phos</button>
+      <button type="button" class="btn btn-primary">Ryuko</button>
+      <button type="button" class="btn btn-primary">Aqua</button>
+      <button type="button" class="btn btn-primary">Osen</button>
+      <button type="button" class="btn btn-primary">miku</button>
+    </div>
+  </div>
+
+<div class="container-float bg-dark text-white p-4">
+  <div class="row p-4 m-4">
+    <div id="demo" class="carousel slide col-md-4" data-bs-ride="carousel">
+<!--
+      <div class="carousel-indecators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+    -->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="SmilePhos.png" alt="a rock" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="darkMiku.jpg" alt="girl in club" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="ryukoMatoi.jpg" alt="girl with scissor blade" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="Ozon.png" alt="monster" class="d-block w-100">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <div class="col-md-7 m-5">
+      <h1 class="display-1">The Waifu<h1><hr>
+        <p class="display-6">Hello I am here to tell you all about the waifus in this set of pictures, I hope that you will agree with me on these topics</p>
+    </div>
+  </div>
+</div>
+
+</body>
+<footer class="container-fluid bg-dark text-white mt-2">
+  <div class="">
+    <h1>Welcome to the footer, woohoo you made it</h1>
+  </div>
+</footer>
 </html>
