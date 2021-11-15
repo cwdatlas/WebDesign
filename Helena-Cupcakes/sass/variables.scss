@@ -1,0 +1,16 @@
+
+//overridinng color variables
+$primary: #EC3632;
+$secondary: #0EC8C7;
+$light: white;
+
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: .7rem
+);
+//Importing bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap'

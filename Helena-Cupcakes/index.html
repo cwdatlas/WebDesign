@@ -4,8 +4,8 @@
  <head>
    <title>The Helena Cupcake Shop</title>
    <link href="cupcakes.css" type="text/css" rel="stylesheet">
-   <!-- this is the link to the bootstrap css -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- this is the link to the overriden bootstrap css -->
+   <link href="sass/variables.css" rel="stylesheet">
    <!-- this is the link for the java compiled javascript of bootstrap -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
    <!-- this is the meta tag that inacts the mobile first developement -->
@@ -15,55 +15,56 @@
 
  <body style="background-color: lightGrey">
    <div class="container col-md-8">
-     <img src="head.jpg" class="">
-     <div class="row text-white bg-secondary mt-1">
-       <div class="col-md p-3"><a class="text-decoration-none text-white">Home</a></div>
-       <div class="col-md p-3"><a class="text-decoration-none text-white">About Us</a></div>
-       <div class="col-md p-3"><a class="text-decoration-none text-white">Cupcake Flavors</a></div>
-       <div class="col-md p-3"><a class="text-decoration-none text-white">Recipes</a></div>
-       <div class="col-md p-3"><a class="text-decoration-none text-white">Contact Us</a></div>
+     <img src="head.jpg" class="img-fluid d-block">
+     <div class="row text-white bg-secondary mt-1 ps-5">
+       <div class="col-md p-3"><a class="text-decoration-none text-white" href="#">Home</a></div>
+       <div class="col-md p-3"><a class="text-decoration-none text-white" href="#">About Us</a></div>
+       <div class="col-md p-3"><a class="text-decoration-none text-white" href="#">Cupcake Flavors</a></div>
+       <div class="col-md p-3"><a class="text-decoration-none text-white" href="#">Recipes</a></div>
+       <div class="col-md p-3"><a class="text-decoration-none text-white" href="#">Contact Us</a></div>
      </div>
      <div class="row">
        <div class="col-md-3 bg-primary ps-5 pt-1">
-         <div class="mt-3"><a class="text-decoration-none text-white">Red Velvet</a></div>
-         <div class="mt-3"><a class="text-decoration-none text-white">Vanilla</a></div>
-         <div class="mt-3"><a class="text-decoration-none text-white">Chocolate</a></div>
-         <div class="mt-3"><a class="text-decoration-none text-white">Blueberry</a></div>
-         <div class="mt-3"><a class="text-decoration-none text-white">Raspberry</a></div>
-         <div class="mt-3"><a class="text-decoration-none text-white mt-2">Strawberry</a></div>
-         <div class="mt-3"><a class="text-decoration-none text-white mt-2">Vegan</a></div>
-         <div class="mt-3"><a class="text-decoration-none text-white mt-2">Bacon</a></div>
-         <div class="mt-3"><a class="text-decoration-none text-white mt-2">Cream-Filled</a></div>
-         <div class="mt-3"><a class="text-decoration-none text-white mt-2">Other</a></div>
+         <div class="mt-3"><a class="text-decoration-none text-white" href="#">Red Velvet</a></div>
+         <div class="mt-3"><a class="text-decoration-none text-white" href="#">Vanilla</a></div>
+         <div class="mt-3"><a class="text-decoration-none text-white" href="#">Chocolate</a></div>
+         <div class="mt-3"><a class="text-decoration-none text-white" href="#">Blueberry</a></div>
+         <div class="mt-3"><a class="text-decoration-none text-white" href="#">Raspberry</a></div>
+         <div class="mt-3"><a class="text-decoration-none text-white mt-2" href="#">Strawberry</a></div>
+         <div class="mt-3"><a class="text-decoration-none text-white mt-2" href="#">Vegan</a></div>
+         <div class="mt-3"><a class="text-decoration-none text-white mt-2" href="#">Bacon</a></div>
+         <div class="mt-3"><a class="text-decoration-none text-white mt-2" href="#">Cream-Filled</a></div>
+         <div class="mt-3"><a class="text-decoration-none text-white mt-2" href="#">Other</a></div>
        </div>
 
        <div class="col-md pt-5 bg-light">
-         <h1>Welcome to the Helena Cupcake Shop!</h1>
+         <h1 class="mb-4"><strong>Welcome to the Helena Cupcake Shop!</strong></h1>
+         <a href="#"><img src="buy.jpg" class="img-fluid float-end"></a>
          <p>The Helena Cupcake Shop is the perfect place if you are looking to order the best cupcakes in the surrounding Helena area. We've searched the world for the best cupcake recipes and brought them here to this neck of the woods. You want
            cupcakes? We got 'em! </p>
 
-         <h2>For Whom Shall I Buy?</h2>
+         <h2><strong>For Whom Shall I Buy?</strong></h2>
          <p>Wanna buy a cupcake for your girlfriend? We got cupcakes. Wanna buy them for your wife? Done and done. Your husband or boyfriend? They couldn't do without. What about for yourself? Whoa, do we have cupcakes. Vanilla, chocolate,
            strawberry,
            vegan... every kind of cupcake you can think of.</p>
 
-         <h3>Can I Make Them Myself?</h3>
+         <h4><strong>Can I Make Them Myself?</strong></h4>
          <p>Want to try making cupcakes yourself? We even have all the ingredients you could ever need to make your own special type of cupcake.</p>
 
-         <h3>What About Other Treats?</h3>
+         <h4><strong>What About Other Treats?</strong></h4>
          <p>Look, if you want ice cream or candy, you will have to look elsewhere. We specialize and focus on cupcakes... that's why we're the best!</p>
        </div>
      </div>
 
-     <footer class="bg-secondary ms-none text-center pt-3">
+     <footer class="bg-secondary text-center pt-3 pb-3">
        <b>Copyright &copy; 2021 The Helena Cupcake Shop, Retail Division of CS 202 Web Design and Development</b>
-       <div class="row col-md-6 mx-auto">
-         <div class="col-md"><a href="#">Site Map</a></div>
-         <div class="col-md"><a href="#">Contact Us</a></div>
-         <div class="col-md"><a href="#">FAQs</a></div>
-         <div class="col-md"><a href="#">Our Guarantee</a></div>
-         <div class="col-md"><a href="#">Privacy Policy</a></div>
-         <div class="col-md"><a href="" class="FooterLinks">Terms and Conditions</a></div>
+       <div class="row col-md-10 mx-auto">
+         <div class="col-md-2 display-6"><a href="#"><strong>Site Map</strong></a></div>
+         <div class="col-md-2 display-6"><a href="#"><strong>Contact Us</strong></a></div>
+         <div class="col-md-2 display-6"><a href="#"><strong>FAQs</strong></a></div>
+         <div class="col-md-2 display-6"><a href="#"><strong>Our Guarantee</strong></a></div>
+         <div class="col-md-2 display-6"><a href="#"><strong>Privacy Policy</strong></a></div>
+         <div class="col-md-2 display-6"><a href="" class="FooterLinks"><strong>Terms and Conditions</strong></a></div>
        </div>
      </footer>
    </div>
