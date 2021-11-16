@@ -8,6 +8,14 @@ width: 70%;
 margin: 0 auto;
 
   }
+  .normPic{
+    width: 30%;
+    float: right;
+  }
+
+  .modalPic{
+    width: 100%;
+  }
 
 header{
   background-color: blue;

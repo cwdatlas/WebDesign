@@ -3,7 +3,12 @@
   <head>
     <meta charset="utf-8">
     <link href="media.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="reveal.css">
     <title>Media Test</title>
+    <style type="text/css">
+      body { font-family: "HelveticaNeue","Helvetica-Neue", "Helvetica", "Arial", sans-serif; }
+      .big-link { display:block; margin-top: 100px; text-align: center; font-size: 70px; color: #06f; }
+    </style>
   </head>
   <body>
     <div id="wrap">
@@ -36,8 +41,11 @@
 
       <article class="articalClass">
         <h1>UwU</h1>
-        <p><img src="">UwU this is a fun time that is a really good time UwU. OwO how is it today? I wont know</p>
         <p>UwU this is a fun time that is a really good time UwU. OwO how is it today? I wont know</p>
+        <p>UwU this is a fun time that is a really good time UwU. OwO how is it today? I wont know</p>
+        <a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade">
+          <img src="../ryuko.jpg" class="normPic">
+        </a>
       </article>
       </section>
 
@@ -45,6 +53,15 @@
         <h1>footer for media test</h1>
       </footer>
 
+      <div id="myModal" class="reveal-modal">
+        <h1>Reveal Modal Goodness</h1>
+        <p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
+        <img src="../ryuko.jpg" class="modalPic">
+        <a class="close-reveal-modal">&#215;</a>
+      </div>
+
     </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+		<script type="text/javascript" src="jquery.reveal.js"></script>
   </body>
 </html>
