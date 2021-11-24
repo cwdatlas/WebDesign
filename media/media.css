@@ -16,6 +16,10 @@ margin: 0 auto;
   .modalPic{
     width: 100%;
   }
+  .normPicLeft{
+    width: 30%;
+    float: left;
+  }
 
 header{
   background-color: blue;
