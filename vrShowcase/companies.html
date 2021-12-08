@@ -5,6 +5,19 @@
   <title>Headset Companies</title>
   <link rel="icon" href="images/logos/logo.png">
   <link href="vr.css" type="text/css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XRP0CR0PLY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XRP0CR0PLY');
+  </script>
+  <link href="http://fonts.cdnfonts.com/css/ocr-a-extended" rel="stylesheet">
   <!-- this is the link to the overriden bootstrap css -->
   <link href="sass/variables.css" rel="stylesheet">
   <!-- this is the link for the java compiled javascript of bootstrap -->
@@ -16,12 +29,12 @@
 <body class="text-white bg-light">
 
   <nav class="container-fluid">
-    <div class="navbar navbar-expand-md fixed-top bg-dark ps-5" role="navigation">
+    <div class="navbar navbar-expand-sm fixed-top bg-dark ps-5" role="navigation">
       <a class="navbar-brand" href="index.html">
         <img src="images/logos/logo.png" alt="company logo" style="width:40px;">
       </a>
       <!-- Links -->
-      <ul class="navbar-nav">
+      <ul class="navbar-nav d-none d-sm-flex" style="font-family: 'OCR A Extended', sans-serif;">
         <li class="nav-item">
           <a class="nav-link text-white" href="headsets.html">Headsets</a>
         </li>
@@ -34,45 +47,83 @@
       </ul>
     </div>
   </nav>
-  
-    <div class="container bg-primary">
-      <!-- overview informative section-->
-      <h1 class="display-2">Overview</h1>
-      <hr>
-      <div class="row p-4">
-        <!-- div to contain both the righ and left divs-->
-        <div class="col-10 display-6">
-          <!-- main artical-->
-          <p>Welcome to Roanoke VR where we guid you though the large and exotic world of VR!</p>
 
-          <p> Here at Roanoke VR we showcase the overall vr world. A person first needs to buy a headset then if desired join
-          one of the great communities here in VR. The large quanitity of VR headsets and styles gives us a chance to show newcomers the best
-          headset for them. When they get into the VR world you have the chance to experience many different games like BeatSaber, Pavlov, and VR chat.
-          Roanoke VR is happy to help you through these choices and find your community. Happy exploring!</p>
-        </div>
-        <div class="col-2 bg-secondary">
-          <!-- extra links -->
-          <h1 class="display-5">Extra links</h1>
+  <header class="container-fluid bg-primary mt-5">
+  </header>
+
+  <section class="">
+
+    <div class="container row col-md-12 mx-auto mt-4 mb-4 text-center display-6">
+      <!-- div containing links to other sites -->
+
+      <div class="p-2 col-md-3 mx-auto row col-md-12 bg-primary mb-4 mt-4">
+        <h1 class="display-2">Companies That Produce VR products</h1>
+        <hr>
+        <p> There are many companies that are in the VR space, but few that make VR headsets and fiewer that have a large
+          market share. The VR headset market is a near monopoly with Oculus/Meta having the vest majority of market share. This topic
+          is a hot one, so here is Thrill to give you an introduction to it and what the VR community can do to make sure that
+          they keep their privacy and independence from Meta.</p>
+      </div>
+
+      <div class='col-md-8 mx-auto embed-container'><iframe src='https://www.youtube.com/embed/1Nl08cUuBsY' frameborder='0' allowfullscreen class=" col-md-12"></iframe></div>
+
+      <div class="p-2 col-md-3 mx-auto row col-md-12 bg-secondary mb-4 mt-4">
+        <img src="images/logos/meta.png" alt="Meta" class="d-block mx-auto img-fluid col-md-4">
+        <div class="col-md-8">
+          <h1 class="display-4">Oculus/Meta</h1>
           <hr>
-          <div class="p-3">
-            <a href="#" class="text-decoration-none text-info">link 1</a><br>
-            <a href="#" class="text-decoration-none text-info">link 2</a><br>
-            <a href="#" class="text-decoration-none text-info">link 3</a><br>
-            <a href="#" class="text-decoration-none text-info">link 4</a><br>
-            <a href="#" class="text-decoration-none text-info">link 5</a><br>
-            <a href="#" class="text-decoration-none text-info">link 6</a><br>
-            <a href="#" class="text-decoration-none text-info">link 7</a><br>
-          </div>
+          <p>Oculus, the maker of the Oculus Quest and Quest2 and owned by Meta. If you arent up to date Facebook changed their name to Meta.
+          Meta has the lionshare of the market share putting them in teritory of a near monopoly esspecially with its appstore and how a person
+          needs a facebook account to use their Quest. If you watched the video above you would have found out the general atitude that the
+          VR community has in relation to Meta. Buy a quest if you dont have any other options, but make sure to keep up to date so you can
+          help in the fight against Meta if needed.</p>
+        </div>
+      </div>
+
+      <div class="p-2 col-md-3 mx-auto row col-md-12 bg-secondary mb-4 mt-4">
+        <img src="images/logos/valve.png" alt="Valve" class="d-block mx-auto img-fluid col-md-4 mt-5 mb-5 pt-5 pb-5">
+        <div class="col-md-8">
+          <h1 class="display-2">Valve</h1>
+          <hr>
+          <p> Valve is a far more friendly company than Meta, but still is monolithic with the second largest in market share in VR headsets.
+          That market share is a small fraction of Meta's, but it makes up the more enthusiest community as their headset, yes singular, is
+          one of the best headsets in the market aside from exceptionally expensive headsets. They also have the largest game store on PCs, which
+          is where you would likely go to play any of your games in SteamVR, their app store's VR launcher.</p>
+        </div>
+      </div>
+
+      <div class="p-2 col-md-3 mx-auto row col-md-12 bg-secondary mb-4 mt-4">
+        <img src="images/logos/htcLogo.png" alt="htc" class="d-block mx-auto img-fluid col-md-4">
+        <div class="col-md-8">
+          <h1 class="display-4">htc</h1>
+          <hr>
+          <p>htc has been in the tech industry for a long time. Before they made headsets they made phones back before 2010. They sold
+            that section of the company and pivitted to VR with their first headset being the htc Vive, my first and primary headset lauched
+            back in 2015. Today they are a mildy successful company in the consumer VR headset market, and more successful in the business market.
+            </p>
+        </div>
+      </div>
+
+      <div class="p-2 col-md-3 mx-auto row col-md-12 bg-secondary mb-4 mt-4">
+        <img src="images/headsets/pimax.png" alt="Pimax" class="d-block mx-auto img-fluid col-md-4">
+        <div class="col-md-8">
+          <h1 class="display-4">Pimax</h1>
+          <hr>
+          <p>Pimax is the exentric VR headset producer. These headsets bost high field of view and high resolutions. Pimax produces
+          many headsets that are primarily catigorized with their resolution. The field of view often results in distoration on the sides
+          of the screen.</p>
         </div>
       </div>
     </div>
-
   </section>
 
-
-  <footer>
-    <div class="bg-dark mt-3 p-3">
-      <p class="display-6">This site was build by Aidan Scott. All non VR chat photos aren't owned by me. Pls dont sue me.</p>
+  <footer class="bg-dark mt-3 p-3">
+    <p class="text-center">Look around at other parts of Roanoke VR!</p>
+    <div class="row col-sm-7 text-center mx-auto">
+      <a class="text-decoration-none text-info col-sm" href="gallery.html">Roanoke VR Home Page</a>
+      <a class="text-decoration-none text-info col-sm" href="gallery.html">VRC Gallery</a>
+      <a class="text-decoration-none text-info col-sm" href="gallery.html">Author Information</a>
+      <a class="text-decoration-none text-info col-sm" href="gallery.html">other link</a>
     </div>
   </footer>
   <script type="text/javascript">

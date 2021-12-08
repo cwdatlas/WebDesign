@@ -5,6 +5,19 @@
   <title>Community Gallery</title>
   <link rel="icon" href="images/logos/logo.png">
   <link href="vr.css" type="text/css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XRP0CR0PLY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XRP0CR0PLY');
+  </script>
+    <link href="http://fonts.cdnfonts.com/css/ocr-a-extended" rel="stylesheet">
   <!-- this is the link to the overriden bootstrap css -->
   <link href="sass/variables.css" rel="stylesheet">
   <!-- this is the link for the java compiled javascript of bootstrap -->
@@ -16,12 +29,12 @@
 <body class="text-white bg-light pt-4">
 
   <nav class="container-fluid">
-    <div class="navbar navbar-expand-md fixed-top bg-dark ps-5" role="navigation">
+    <div class="navbar navbar-expand-sm fixed-top bg-dark ps-5" role="navigation">
       <a class="navbar-brand" href="index.html">
         <img src="images/logos/logo.png" alt="company logo" style="width:40px;">
       </a>
       <!-- Links -->
-      <ul class="navbar-nav">
+      <ul class="navbar-nav d-none d-sm-flex" style="font-family: 'OCR A Extended', sans-serif;">
         <li class="nav-item">
           <a class="nav-link text-white" href="headsets.html">Headsets</a>
         </li>
@@ -78,6 +91,7 @@
         <img src="images/vrc/tunaThumbnail.png" alt="Paul and I" class="d-block mx-auto img-fluid">
         <p class="">Tuna</p>
       </div>
+      <hr class =" bg-dark">
     </div>
 
     <!-- Gallery -->
