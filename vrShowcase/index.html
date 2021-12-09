@@ -29,20 +29,28 @@
 <body class="text-white bg-light">
 
   <nav class="container-fluid">
-    <div class="navbar navbar-expand-sm fixed-top bg-dark ps-5" role="navigation">
-      <a class="navbar-brand" href="index.html">
+    <div class="navbar navbar-inverse navbar-expand-sm fixed-top bg-dark ps-5" role="navigation">
+      <a class="btn-dark navbar-brand" href="index.html">
         <img src="images/logos/logo.png" alt="company logo" style="width:40px;">
       </a>
       <!-- Links -->
       <ul class="navbar-nav d-none d-sm-flex" style="font-family: 'OCR A Extended', sans-serif;">
         <li class="nav-item">
-          <a class="nav-link text-white" href="headsets.html">Headsets</a>
+          <a class="btn-dark nav-link text-white" href="headsets.html">Headsets</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="companies.html">Companies</a>
+          <a class="btn-dark nav-link text-white" href="companies.html">Companies</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="community.html">Community</a>
+          <a class="btn-dark nav-link text-white" href="community.html">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn-dark nav-link text-white" href="gallery.html">VRC Gallery</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav float-end" style="font-family: 'OCR A Extended', sans-serif;">
+        <li class="nav-item">
+          <a type="button" class="nav-link text-white btn btn-primary" data-bs-toggle="modal" data-bs-target="#logIn">Log In</a>
         </li>
       </ul>
     </div>
@@ -123,20 +131,106 @@
             one of the great communities here in VR. The large quanitity of VR headsets and styles gives us a chance to show newcomers the best
             headset for them. When they get into the VR world you have the chance to experience many different games like BeatSaber, Pavlov, and VR chat.
             Roanoke VR is happy to help you through these choices and find your community. Happy exploring!</p>
+          <a type="button" class="btn btn-dark col-md-2 mx-auto text-light" data-bs-toggle="modal" data-bs-target="#createAnAccount">
+            <strong>Join us!</strong>
+          </a>
         </div>
       </div>
     </div>
 
+    <!-- The Modal -->
+    <div class="modal text-dark" id="createAnAccount">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Join The Community</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <p>Fill out this form if you would like to join our email list and be an official member of The Roanoke Corporation!</p>
+            <form action="/action_page.php">
+              <div class="mb-3 mt-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              </div>
+              <div class="mb-3">
+                <label for="pwd" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+              </div>
+              <div class="mb-3">
+                <label for="pwd" class="form-label">Type in your password again:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+              </div>
+          </div>
+          <button type="button" class="btn btn-dark">Submit</button>
+          </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal text-dark" id="logIn">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Join The Community</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <p>Welcome back!</p>
+            <div class="container mt-3">
+              <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <div class="form-check mb-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                  </label>
+                </div>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </section>
 
 
   <footer class="bg-dark mt-3 p-3">
     <p class="text-center">Look around at other parts of Roanoke VR!</p>
     <div class="row col-sm-7 text-center mx-auto">
-      <a class="text-decoration-none text-info col-sm" href="gallery.html">Roanoke VR Home Page</a>
+      <a class="text-decoration-none text-info col-sm" href="index.html">Roanoke VR Home Page</a>
       <a class="text-decoration-none text-info col-sm" href="gallery.html">VRC Gallery</a>
-      <a class="text-decoration-none text-info col-sm" href="gallery.html">Author Information</a>
-      <a class="text-decoration-none text-info col-sm" href="gallery.html">other link</a>
+      <a class="text-decoration-none text-info col-sm" href="#">Author Information</a>
+      <a class="text-decoration-none text-info col-sm" href="#">Roanoke Corporation</a>
     </div>
   </footer>
   <script type="text/javascript">
